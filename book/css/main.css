@@ -1,0 +1,770 @@
+/**********************************/
+/**************Login***************/
+/**********************************/
+.hero .login{
+    position: absolute;
+    display: flex;
+    top: 20%;
+    left: 17%;   
+    max-width: 1000px;
+    max-height: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    padding: 0px;
+    border: 2px dotted yellow;
+    border-radius: 30px;
+}
+
+.hero .login .login-icon{
+    position: relative;
+    top: 48px;
+    left: 5%;
+    margin-right: 50px;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+.hero .login .login-form{
+    width: 100%;
+    max-width: 600px;
+    max-height: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 0px;
+}
+
+.hero .login .login-form h1{
+    color: #009999;
+    font-size: 42px;
+    font-weight: bold;
+    margin: 20px 0px 30px 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.hero .login .login-form .input-box{
+    margin-bottom: 10px;
+}
+
+.hero .login .login-form .input-box input{
+    padding: 7.5px 25px;
+    margin-bottom: 5px;
+    width: 80%;
+    line-height: 30px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+
+.hero .login .login-form .btn-box{
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;   
+    text-align: center;
+}
+
+.hero .login .login-form .btn-box button{
+    padding: 11.5px 100px;
+    border-radius: 2px;
+    background-color: blue;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+/**********************************/
+/************Booking***************/
+/**********************************/
+.hero .booking{
+    position: absolute;
+    display: flex;
+    top: 12%;
+    left: 17%;   
+    max-width: 1000px;
+    max-height: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px dotted yellow;
+    border-radius: 30px;
+}
+
+.hero .booking .booking-icon{
+    position: relative;
+    top: 95px;
+    left: 3%;
+    margin-right: 40px;
+    margin-left: 10px;
+    padding: 0px;
+}
+
+.hero .booking .booking-form{
+    width: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    margin: 10px 20px 10px 20px;
+    background-color: #ffffff;
+    padding: 0px;
+}
+
+.hero .booking .booking-form h1{
+    color: #009999;
+    font-size: 42px;
+    font-weight: bold;
+    margin: 10px 0px 30px 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.hero .booking .booking-form .input-box{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.hero .booking .booking-form .input-box label{
+    padding: 10px 5px 5px 15px;
+    margin-bottom: 5px;
+    width: 27%;
+    line-height: 30px;
+    outline: none;
+    text-align: left;
+    color: black;
+    font: 1.3em sans-serif;
+}
+
+.hero .booking .booking-form .input-box input{
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 5px;
+    width: 68%;
+    line-height: 30px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+
+.hero .booking .booking-form .input-box select{
+    padding: 7.5px 0px 7.5px 15px;
+    margin-bottom: 5px;
+    width: 15%;
+    right: 20px;
+    line-height: 30px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+
+.hero .booking .booking-form .btn-box{
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;   
+    text-align: center;
+}
+
+.hero .booking .booking-form .btn-box button{
+    padding: 11.5px 150px;
+    border-radius: 2px;
+    background-color: blue;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.hero .booking .booking-form .btn-box button:hover{
+    padding: 11.5px 150px;
+    border-radius: 2px;
+    background-color: deeppink;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+/**********************************/
+/***********Add Cumtomer***********/
+/**********************************/
+.hero .addcus{
+    position: absolute;
+    display: flex;
+    top: 12%;
+    left: 17%;   
+    max-width: 1000px;
+    max-height: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px dotted yellow;
+    border-radius: 30px;
+}
+
+.hero .addcus .addcus-icon{
+    position: relative;
+    top: 120px;
+    left: 7%;
+    margin-right: 50px;
+    padding: 15px;
+}
+
+.hero .addcus .addcus-form{
+    width: 100%;
+    max-width: 600px;
+    max-height: 600px;
+    margin: 10px auto;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.hero .addcus .addcus-form h1{
+    color: #009999;
+    font-size: 42px;
+    font-weight: bold;
+    margin: 20px 0px 30px 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.hero .addcus .addcus-form .input-box{
+    margin-bottom: 10px;
+}
+
+.hero .addcus .addcus-form .input-box input{
+    padding: 7.5px 25px;
+    margin-bottom: 5px;
+    width: 80%;
+    line-height: 24px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+
+.hero .addcus .addcus-form .input-box textarea{
+    padding: 7.5px 25px;
+    margin-bottom: 5px;
+    width: 80%;
+    line-height: 24px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+
+.hero .addcus .addcus-form .input-box-rb{
+    left: 20px;
+    position: relative;
+    padding: 7.5px 15px;
+    margin-bottom: 5px;
+    width: 36%;
+    line-height: 30px;
+    outline: none;
+}
+
+.hero .addcus .addcus-form .input-box-rb input{
+    margin-left: 10px;
+    position: relative;
+    left: 20px;
+}
+
+.hero .addcus .addcus-form .input-box-rb label{
+    margin-left: 0;
+    position: relative;
+    left: 20px;
+}
+
+.hero .addcus .addcus-form .btn-box{
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;   
+    text-align: center;
+}
+
+.hero .addcus .addcus-form .btn-box button{
+    padding: 11.5px 100px;
+    border-radius: 2px;
+    background-color: blue;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+
+/**********************************/
+/*******Appointment History********/
+/**********************************/
+.hero .ap-his{
+    position: absolute;
+    display: flex;
+    top: 13%;
+    left: 6%;   
+    max-width: 1340px;
+    max-height: 1000px;
+    width: 100%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px dotted yellow;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero .ap-his .ap-his-form{
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    max-height: 1000px;
+    margin: 10px auto;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.hero .ap-his .ap-his-form h1{
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    max-height: 1000px;
+    margin: 10px auto;
+    background-color: #ffffff;
+    padding: 10px;
+    color: #009999;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.hero .ap-his .ap-his-form .ap-his-show{
+   position: relative;
+   margin-bottom: 30px;
+}
+
+.hero .ap-his .ap-his-form .ap-his-show input{
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    margin: 0px 10px 0px 10px;
+}
+
+.hero .ap-his .ap-his-form .ap-his-show #btn-all{
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+ }
+
+.hero .ap-his .ap-his-form table{
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    max-height: 1000px;
+    margin: 10px auto;
+    background-color: #ffffff;
+    padding: 10px;
+    border: solid 1px black;
+}
+
+table th{
+    border: solid 1px black;
+}
+
+table td{
+    border: solid 1px black;
+}
+
+table td .btn_sendemail{
+    border-radius: 20px;
+}
+
+.hero .ap-his .ap-his-form .ls_numberpage{
+    display: flex;
+    position: relative;
+    top: 7px;
+    left: 15px;
+}
+
+/**********************************/
+/***********Set Of Date************/
+/**********************************/
+.hero .setoff{
+    position: absolute;
+    display: flex;
+    top: 12%;
+    left: 17%;   
+    max-width: 1000px;
+    max-height: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 25px;
+    border: 2px dotted yellow;
+    border-radius: 30px;
+}
+
+.hero .setoff .setoff-icon{
+    position: relative;
+    top: 90px;
+    left: 5%;
+    margin-right: 50px;
+    padding: 15px;
+}
+
+.hero .setoff .setoff-form{
+    width: 100%;
+    max-width: 600px;
+    max-height: 600px;
+    margin: 10px 20px 10px 20px;
+    background-color: #ffffff;
+    padding: 0px;
+}
+
+.hero .setoff .setoff-form h1{
+    color: #009999;
+    font-size: 42px;
+    font-weight: bold;
+    margin: 0px 0px 30px 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.hero .setoff .setoff-form .input-box{
+    margin-bottom: 10px;
+}
+
+.hero .setoff .setoff-form .input-box input{
+    padding: 7.5px 25px;
+    margin-bottom: 5px;
+    width: 80%;
+    line-height: 30px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+
+.hero .setoff .setoff-form .btn-box{
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;   
+    text-align: center;
+}
+.hero .setoff .setoff-form .btn-box button{
+    padding: 11.5px 100px;
+    border-radius: 2px;
+    background-color: blue;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+/**********************************/
+/************Edit SMS**************/
+/**********************************/
+.hero .sms{
+    position: absolute;
+    display: flex;
+    top: 18%;
+    left: 17%;   
+    max-width: 1000px;
+    max-height: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px dotted yellow;
+    border-radius: 30px;
+}
+
+.hero .sms .sms-icon{
+    position: relative;
+    top: 22px;
+    left: 7%;
+    margin-right: 70px;
+    padding: 15px;
+}
+
+.hero .sms .sms-form{
+    width: 100%;
+    max-width: 600px;
+    max-height: 600px;
+    margin: 10px auto;
+    background-color: #ffffff;
+    padding: 0px;
+}
+
+.hero .sms .sms-form h1{
+    color: #009999;
+    font-size: 42px;
+    font-weight: bold;
+    margin: 20px 0px 20px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .sms .sms-form .input-box-rb{
+    left: 20px;
+    position: relative;
+    padding: 7.5px 15px;
+    margin-bottom: 5px;
+    width: 36%;
+    line-height: 30px;
+    outline: none;
+}
+
+.hero .sms .sms-form .input-box-rb input{
+    margin-left: 10px;
+    position: relative;
+    left: 20px;
+}
+
+.hero .sms .sms-form .input-box-rb label{ 
+    margin-left: 0;
+    position: relative;
+    left: 20px;
+}
+
+.hero .sms .sms-form .input-box{
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.hero .sms .sms-form .input-box textarea{
+    padding: 7.5px 25px;
+    margin-bottom: 5px;
+    width: 80%;
+    height: 100px;
+    line-height: 24px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+
+.hero .sms .sms-form .btn-box{
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;   
+    text-align: center;
+}
+
+.hero .sms .sms-form .btn-box button{
+    padding: 11.5px 100px;
+    border-radius: 2px;
+    background-color: blue;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+/**********************************/
+/***********Edit EMAIL*************/
+/**********************************/
+.hero .email{
+    position: absolute;
+    display: flex;
+    top: 18%;
+    left: 17%;   
+    max-width: 1000px;
+    max-height: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px dotted yellow;
+    border-radius: 30px;
+}
+
+.hero .email .email-icon{
+    position: relative;
+    top: 41px;
+    left: 7%;
+    margin-right: 70px;
+    padding: 15px;
+}
+
+.hero .email .email-form{
+    width: 100%;
+    max-width: 600px;
+    max-height: 600px;
+    margin: 10px auto;
+    background-color: #ffffff;
+    padding: 0px;
+}
+
+.hero .email .email-form h1{
+    color: #009999;
+    font-size: 42px;
+    font-weight: bold;
+    margin: 20px 0px 20px 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.hero .email .email-form .input-box-rb{
+    left: 20px;
+    position: relative;
+    padding: 7.5px 15px;
+    margin-bottom: 5px;
+    width: 36%;
+    line-height: 30px;
+    outline: none;
+}
+
+.hero .email .email-form .input-box-rb input{ 
+    margin-left: 10px;
+    position: relative;
+    left: 20px;
+}
+
+.hero .email .email-form .input-box-rb label{ 
+    margin-left: 0;
+    position: relative;
+    left: 20px;
+}
+
+.hero .email .email-form .input-box{
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.hero .email .email-form .input-box textarea{
+    padding: 7.5px 25px;
+    margin-bottom: 5px;
+    width: 80%;
+    height: 100px;
+    line-height: 24px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+
+.hero .email .email-form .btn-box{
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;   
+    text-align: center;
+}
+
+.hero .email .email-form .btn-box button{
+    padding: 11.5px 100px;
+    border-radius: 2px;
+    background-color: blue;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+/**********************************/
+/***********Edit User*************/
+/**********************************/
+
+.hero .user{
+    position: absolute;
+    display: flex;
+    top: 13%;
+    left: 6%;   
+    max-width: 1340px;
+    max-height: 1000px;
+    width: 100%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px dotted yellow;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero .user .user-icon{
+    position: relative;
+    top: 115px;
+    left: 3%;
+    margin-right: 50px;
+    padding: 15px;
+}
+
+.hero .user .user-form{
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    max-height: 1000px;
+    margin: 10px auto;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.hero .user .user-form h1{
+    color: #009999;
+    font-size: 42px;
+    font-weight: bold;
+    margin: 20px 0px 30px 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.hero .user .user-form .container-box{
+    position: relative;
+    display: flex;
+    max-width: 1200px;
+    max-height: 1000px;
+    width: 100%;
+    justify-content: left; 
+    margin: 10px 30px 10px 30px;  
+    overflow: hidden;
+}
+
+.hero .user .user-form .container-box .input-box{
+    position: relative;
+    width: 275px;
+    margin: 20px; 
+    padding: 20px;
+    outline: none; 
+    line-height: 30px;   
+    border: solid 1px black;
+    border-radius: 40px;
+    background-color: darkturquoise;
+}
+
+.hero .user .user-form .container-box .input-box h2{
+    color: crimson;
+}
+
+.hero .user .user-form .container-box .input-box a{
+    color: #ffffff;
+}
